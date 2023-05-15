@@ -100,3 +100,5 @@ if (salir) {
     alert("Saliendo de la calculadora");
     alert(`Resultados: ${resultados.join(", ")}`);
 } 
+
+//si
