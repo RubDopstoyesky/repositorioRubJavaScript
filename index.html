@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segundo entregable Javascript</title>
-</head>
-<body>
-    <script src="./main.js"></script>
-    <h2>Esta aplicacion es una calculadora ciclada para que sea utilizada cuantas veces quiera el usuario hasta presionar esc o escribir "esc" a su vez guarda en un array los resultados arrojados por la calculadora y se pueden ver mediante la consola ya que es un dato que no queremos mostrar al usuario final pero que por el array puede ser almacenado para consulta.</h2>
-</body>
+    <head>
+        <link rel="shortcut icon" href="" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Tienda de albumes RADIOHEAD</title>
+    </head>
+    <body>
+        <!--navBar-->
+        <div class="nav-container">
+            <nav class="navbar">
+                <h1 class="navbar-logo"= >RADIOHEAD</h1>
+                <h1 class="ver-carrito" id="verCarrito">
+                    <Button type="button"><img src="https://images.vexels.com/media/users/3/200097/isolated/lists/942820836246f08c2d6be20a45a84139-icono-de-carrito-de-compras-carrito-de-compras.png"></Button ><span
+                        id="cantidadCarrito"
+                        class="cantidad-carrito"
+                    ></span>
+                </h1>
+            </nav>
+        </div>
+
+        <!--banner-->
+        <div class="banner">
+            <div class="banner-container">
+                <h1>Fans de RADIOHEAD</h1>
+                <p>Aqui encontraras los mejores albumes en Vinyl</p>
+            </div>
+        </div>
+        <br>
+        <h1 style="text-align: center;">AGREGUE ALBUMES AL CARRITO AL DAR CLICK EN COMPRAR</h1>
+
+        <!--shop content-->
+        <div id="shopContent" class="shop-content"></div>
+
+
+        <!--modal container-->
+        <div id="modal-container" class="modal-container"></div>
+        <!--footer-->
+        <footer id="contacto" class=" text-white py-3 footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p>Información de contacto</p>
+                        <p>Dirección: 1251 Manzanillo Colima</p>
+                        <p>Teléfono: (312) 103-5890 </p>
+                        <p>Email: RadioFans@mail.com</p>
+                    </div>
+
+        <script src="./js/products.js"></script>
+        <script src="./js/app.js"></script>
+        <script src="./js/carrito.js"></script>
+    </body>
 </html>
